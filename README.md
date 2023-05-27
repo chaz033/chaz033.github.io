@@ -1,1 +1,1 @@
-# CHazOnline Website Files. Nothing Fun.
+# ChazOnline Website Files. Nothing Fun.
