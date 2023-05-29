@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(39, 38, 38);
+    background-color: #303135;
     padding: 0;
     margin: 0;
     height: 100%;
@@ -9,12 +9,28 @@ body {
 /* ----- Div Class ----- */
 div.header {
     height: auto;
-    width: 100%;
-    outline: 2px solid black;
+    width: 100%; 
     margin-bottom: 2em;
+    background-color: #2C0047;
+    display: -webkit-inline-flex;
 }
+/*div.nav-bar {
+    overflow: hidden;
+    float: right;
+    outline: 2px solid black;
+    height: 3em;
+    right: 0;
+    align-items: flex-end;
+}
+div.nav-bar a {
+    color: grey;
+    display: inline-flex;
+    padding: 0.5vw 1vw;
+    outline: 2px solid white;
+}*/
+
 div.footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -42,10 +58,13 @@ h1.header-title {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.4em;
     font-weight: 300;
+    width: 50vw;
+    position: relative;
     padding-left: 0.5em;
     padding-top: 0.5em;
     padding-bottom: 0.5em;
     margin-top: 0;
+    outline: 2px solid black;
 }
 h1.body-title {
     color: white;
@@ -65,7 +84,9 @@ p.body-text-1 {
 
 /* ----- Images ----- */
 img.header-image {
-    width: 5em;
-    height: 5em;
-    max-width: 100%;
+    float: left;
+    width: 4em;
+    height: 4em;
+    padding: 0.5em;
+    border-radius: 1em;
 }
