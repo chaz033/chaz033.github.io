@@ -6,29 +6,59 @@ body {
     width: 100%;
 }
 
-/* ----- Div Class ----- */
+/* ----- Header ----- */
 div.header {
-    height: auto;
+    height: 5em;
     width: 100%; 
     margin-bottom: 2em;
     background-color: #2C0047;
-    /*display: -webkit-inline-flex;*/
+    display: flex;
 }
-/*div.nav-bar {
-    overflow: hidden;
-    float: right;
-    outline: 2px solid black;
-    height: 3em;
-    right: 0;
-    align-items: flex-end;
-}
-div.nav-bar a {
-    color: grey;
-    display: inline-flex;
-    padding: 0.5vw 1vw;
-    outline: 2px solid white;
-}*/
+div.header-left {
+    float: left;
+    width: 50vw;
 
+}
+div.header-right {
+    float: right;
+    width: 50vw;
+}
+
+div.nav-bar {
+    text-align: right;
+    padding-top: 2em;
+    padding-right: 2.5em;
+}
+a#nav-button {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    font-weight: 3;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #520184;
+    padding: 0.25em 0.5em;
+    margin: 0 0.05em;
+    border-radius: 0.5em;
+}
+a#nav-button:hover {
+    background-color:#7a03c4;
+}
+
+h1.header-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: 300;
+    position: relative;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+}
+
+
+/* ----- Footer ----- */
 div.footer {
     position: absolute;
     left: 0;
@@ -43,6 +73,7 @@ div.footer {
 }
 
 
+/* ----- Body ----- */
 div.body-1 {
     width: 70%;
     height: auto;
@@ -52,20 +83,7 @@ div.body-1 {
     outline: 2px solid black;
 }
 
-/* ----- Text Styles ----- */
-h1.header-title {
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 2.4em;
-    font-weight: 300;
-    width: 50vw;
-    position: relative;
-    padding-left: 0.5em;
-    padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    margin-top: 0;
-    outline: 2px solid black;
-}
+
 h1.body-title {
     color: white;
     font-family: Arial, Helvetica, sans-serif;
