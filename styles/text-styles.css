@@ -1,0 +1,59 @@
+/* Notes */
+/*
+        pixels/16=em
+*/
+
+
+/* ----- Header Text ----- */
+h1.header-title {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4em;
+    font-weight: 300;
+    position: relative;
+    padding-left: 0.5em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+    margin-top: 0;
+}
+
+
+/* ----- Header Text ----- */
+h1.body-title {
+    color: black;
+    text-shadow: 5px 0px 5px #520184;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.7em;
+    text-decoration: underline;
+    font-weight: 300;
+    padding: 0.2em 0 0 0;
+    margin-top: 0;
+}
+h2.body-title{
+    color: black;
+    text-shadow: 5px 0px 5px #520184;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    text-decoration: underline;
+    font-weight: 300;
+    padding: 0.2em 0 0 0;
+    margin-top: 0;
+}
+
+/* ----- Body Text ----- */
+p.body-text-1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+    color: azure;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+}
+p.body-text-2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.875em;
+    color: azure;
+    padding-left: 7.5%;
+    padding-right: 7.5%;
+    text-align: left;
+}
+

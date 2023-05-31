@@ -1,0 +1,21 @@
+div.body-1 {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    padding-bottom: 0.5em;
+    margin: auto;
+}
+
+div.content-seperator {
+    display: flex;
+}
+div#content-left {
+    width: 55%;
+    height: auto;
+    margin-right: 1em;
+    margin-left: 3.8em;
+}
+div#content-right {
+    width: 30%;
+    height: auto;
+}

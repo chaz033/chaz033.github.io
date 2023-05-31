@@ -1,0 +1,10 @@
+img.header-image {
+    float: left;
+    width: 4em;
+    height: 4em;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+img.body-image, h2.body-title {
+    display: inline;
+}

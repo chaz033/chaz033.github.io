@@ -3,11 +3,23 @@
 
         <title>ChazOnline - Home</title>
 
+        <!-- Style Sheet Direct File Sources-->
         <link rel="stylesheet" href="./styles/global.css">
+        <link rel="stylesheet" href="./styles/header-styles.css">
+        <link rel="stylesheet" href="./styles/body-styles.css">
+        <link rel="stylesheet" href="./styles/text-styles.css">
+        <link rel="stylesheet" href="./styles/image-styles.css">
+        <link rel="stylesheet" href="./styles/footer-styles.css">
         <link rel="stylesheet" href="./styles/website-counter.css">
 
-        <script defer src="./java/website-counter.js"></script>
+        <!-- Javascript Runtime Source Links-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 
+        <!-- Javascript Direct File Sources-->
+        <script defer src="./java/website-counter.js"></script>
+        <script src="./java/youtube-latest.js"></script>
+
+        <!-- Website Icon -->
         <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
 
     </head>
@@ -49,11 +61,11 @@
                 <hr class="rounded">
 
                 <!-- VISITOR COUNTER -->
-                <h2 class="body-title">Visitor Count</h2>
-                <div class="website-counter"></div>
+                <!--<h2 class="body-title">Visitor Count</h2>
+                <div class="website-counter"></div>-->
                 <!--<button id="reset">Reset</button>--> <!-- ALLOW ONLY WHEN NEEDED -->
 
-                <hr class="rounded">
+                <!--<hr class="rounded">-->
 
                 <h2 class="body-title">The Site</h2>
                 <p class="body-text-1">
@@ -62,7 +74,21 @@
                     The site will also maybe have a posting section, and updates about chaz. Thanks for the support, more updates to come!
                 </p>
 
+                <hr class="rounded">
 
+                <div class="content-seperator">
+                    <div id="content-left">
+                        <h2 class="body-title">Latest Video</h2>
+                        <iframe id="youtube_video" width="500" height="283" frameborder="0" allowfullscreen></iframe>
+                    </div>
+
+                    <div id="content-right">
+                        <h2 class="body-title">More...</h2>
+                        <p class="body-text-2">
+                            More content is being added every day to the site. Please keep visiting to see the progress.
+                        </p>
+                    </div>
+                </div>
 
                 <hr class="rounded">
             </div>
