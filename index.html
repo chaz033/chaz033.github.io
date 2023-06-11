@@ -30,7 +30,7 @@
 
             <div class="header">
                 <div class="header-left">
-                    <image class="header-image" src="./images/title.png" alt="Title"></image> <!-- Remove Note Markers Later -->
+                    <image class="header-image" src="./images/title.png" alt="Title" /> <!-- Remove Note Markers Later -->
                     <!--<image class="header-image" src="./images/placeholder.jpg" alt="Title"></image>--> <!-- Temporary Place Holder -->
                     <h1 class="header-title">ChazOnline</h1>
                 </div>
@@ -79,7 +79,10 @@
                 <div class="content-seperator">
                     <div id="content-left">
                         <h2 class="body-title">Latest Video</h2>
-                        <iframe id="youtube_video" width="500" height="283" frameborder="0" allowfullscreen></iframe>
+                        <!--<iframe id="rtmp://localhost:1935" width="500" height="283" frameborder="0" allowfullscreen></iframe>-->
+                        <video id="videoPlayer" width="500" controls muted="muted" autoplay>
+                            <source src="../Testing/data/chazg-0.ts" />
+                        </video>
                     </div>
 
                     <div id="content-right">
