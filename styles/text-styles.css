@@ -60,3 +60,19 @@ p.error {
     color: red;
 }
 
+
+a.link_main {
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+
+    transition: 0.1s;
+}
+a.link_main:hover {
+    color: rgb(255, 94, 0);
+    font-weight: 600;
+}
+a.link_main:active {
+    color: rgb(255, 0, 0)
+}
+
